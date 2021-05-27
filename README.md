@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=BiBitR
 
 Package license: GPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bibitr-feedstock/blob/master/LICENSE.txt)
 
 Summary: A simple R wrapper for the Java BiBit algorithm from "A biclustering algorithm for extracting bit-patterns from binary datasets" from Domingo et al. (2011) <DOI:10.1093/bioinformatics/btr464>. An simple adaption for the BiBit algorithm which allows noise in the biclusters is also introduced as well as a function to guide the algorithm towards given (sub)patterns. Further, a workflow to derive noisy biclusters from discoverd larger column patterns is included as well.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-bibitr` from the `conda-forge` channel can be achieved by adding `
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-bibitr` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
