@@ -1,11 +1,11 @@
-About r-bibitr
-==============
+About r-bibitr-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bibitr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=BiBitR
 
 Package license: GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bibitr-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple R wrapper for the Java BiBit algorithm from "A biclustering algorithm for extracting bit-patterns from binary datasets" from Domingo et al. (2011) <DOI:10.1093/bioinformatics/btr464>. An simple adaption for the BiBit algorithm which allows noise in the biclusters is also introduced as well as a function to guide the algorithm towards given (sub)patterns. Further, a workflow to derive noisy biclusters from discoverd larger column patterns is included as well.
 
